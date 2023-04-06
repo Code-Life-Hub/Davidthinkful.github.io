@@ -1,0 +1,111 @@
+/* begin css style sheet below */ 
+/* create a background color for my body */
+body {
+  background-color:#000000;
+} 
+/* style my h1 header (David Wright) */
+h1 {
+  font-Family: Serif;
+  font-size: 50px;
+  color:green;
+  text-align: center;
+  margin: 10px;
+}
+/* style my h2 header (Thinkful Student) */
+h2 {
+  font-Family:cursive;
+  font-size: 35px;
+  color: green;
+  text-align: center;
+  margin: 20px;
+}
+/* style all h3 headers (Introduction, About Me, Contact,David Wright'footer at bottom of page') */
+h3 {
+  font-Family: Helvetica;
+  font-size: 30px;
+  color: green;
+  text-align:center;
+  margin: 20px;
+}
+/* style all h4 headers (Line 39 'Hello, my name is... , Line 43, As an avid outdoorsman... , Line 81 Top 3 unrelated hobbies , Line 98 through Line 101 listed below are a few ways...') */
+h4 {
+  font-Family: Helvetica;
+  font-size: 20px;
+  color: green;
+  text-align:center;
+  margin: 20px;
+}
+/* style all paragraphs within the webpage */
+p{
+  font-Family: Helvetica;
+  font-size: 18px;
+  color: green;
+  text-align: center;
+  margin: 40px;
+  padding: 10px;
+}
+/* DONT FORGET to create functioning link styles*/
+a:link    { color: #00ff00; }
+a:visited { color: #006400; }
+a:hover   { color: blue; }
+a:active  { color: red;  }  
+/* find a way to make the matrix image proportionally convey the theme of my site while not being too obnoxious*/
+.image1 {
+  display:block;
+  width: 100%;
+  height: 650px;
+  margin: 0px;
+  border-color: #000000;
+  border-width:auto;
+}
+/* this is where I am going to put my reference map to the city of residence I occupy */
+.image2 { 
+  display:block;
+  width:auto;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #000000;
+  border-width:0px;
+}
+
+/* style free time unordered list */
+ul {
+  text-align:center;
+  color: green;
+  font-size:18px;
+  margin: auto;
+  list-style-type:none;
+}
+/* style all ordered lists*/
+ol {
+  text-align:center;
+  color: green;
+  font-size:18px;
+  list-style-position:inside;
+  
+}
+/* create e-Mail link styled button to place under my free time unordered list*/
+.btn {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+.btn-matrix {
+  color: white;
+  background-color:black;
+  border-color:green;
+}/* END button creatiuon HERE*/
+/*give my horizontal rule style that matches my matrix theme*/
+hr {
+  color:green;
+}
+/* Disregard final footer I used style from h3 headers to style it*/
+
+
+
