@@ -56,7 +56,7 @@ a:active  { color: red;  }
   height: 650px;
   margin: 0px;
   border-color: #000000;
-  border-width:auto;
+  border-width:0px;
 }
 /* this is where I am going to put my reference map to the city of residence I occupy */
 .image2 { 
